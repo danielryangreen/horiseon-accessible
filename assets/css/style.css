@@ -5,9 +5,10 @@
 }
 
 body {
-    background-color: #d9dcd6;
     /* width: 1145px; */
     /* width: 1165px; */
+    background-color: #d9dcd6;
+    color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
 }
@@ -15,12 +16,11 @@ body {
 header {
     padding: 20px;
     background-color: #2a607c;
-    color: #ffffff;
 }
 
 header h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 48px;
 }
 
@@ -29,9 +29,9 @@ header h1 #seo {
 }
 
 header nav {
+    float: right;
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
     font-size: 20px;
 }
 
@@ -44,7 +44,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
+header nav ul li a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -59,17 +59,16 @@ a {
 }
 
 section {
-    width: 75%;
     display: inline-block;
+    width: 75%;
     margin-left: 20px;
 }
 
 section article {
-    margin-bottom: 20px;
-    padding: 50px;
     height: 300px;
+    padding: 50px;
+    margin-bottom: 20px;
     background-color: #0072bb;
-    color: #ffffff;
 }
 
 section article img {
@@ -92,18 +91,17 @@ section article h2 {
 }
 
 aside {
-    margin-right: 20px;
-    padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
+    padding: 20px;
+    margin-right: 20px;
     background-color: #2589bd;
 }
 
 aside article {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
 aside article h3 {
@@ -113,13 +111,14 @@ aside article h3 {
 
 aside article img {
     display: block;
-    margin: 10px auto;
     max-width: 150px;
+    margin: 10px auto;
 }
 
 footer {
-    padding: 30px;
     clear: both;
+    padding: 30px;
+    color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
