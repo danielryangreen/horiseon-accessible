@@ -7,7 +7,9 @@
     <title>Horiseon Services</title>
 </head>
 
+<!--The original page appears to have been designed for a screen resolution of 1152 x 864. It is not responsive to viewports that are narrower. To prevent the page from displaying poorly, I set the body to a fixed width of 1152px. When the browser is narrower, it will have a horizontal scroll bar. When the browser is wider, the page will be centered.-->
 <body>
+    <!--The header contains an h1 tag that has 3 letters styled in a different color to create a logo. It also contains a nav bar that links to the content headings that are further down the page.-->
     <header>
         <h1>Hori<span id="seo">seo</span>n</h1>
         <nav>
@@ -25,11 +27,13 @@
         </nav>
     </header>
 
+    <!--Since the width is now frozen and the hero photo no longer needs to scale with the page, I moved the background image from the css to this div and added an alt attribute to make it more accessible.-->
     <div id="hero">
         <img src="./assets/images/digital-marketing-meeting.jpg"
              alt="People around a conference table looking at papers">
     </div>
 
+    <!--This is the main content describing the services that Horiseon provides. They are linked from the nav bar at the top of the page.-->
     <section>
         <article id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg"
@@ -60,6 +64,7 @@
         </article>
     </section>
 
+    <!--The sidebar describes the benefits that clients receive by working with Horiseon.-->
     <aside>
         <article>
             <h3>Lead Generation</h3>
@@ -84,6 +89,7 @@
         </article>
     </aside>
 
+    <!--The footer contains a message with a heart emoji and the copyright notice.-->
     <footer>
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
