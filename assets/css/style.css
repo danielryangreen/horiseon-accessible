@@ -5,8 +5,9 @@
 }
 
 body {
-    /* width: 1145px; */
-    /* width: 1165px; */
+    width: 1152px;  /* use width between 1145 and 1165 */
+    margin-left: auto;
+    margin-right: auto;
     background-color: #d9dcd6;
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
