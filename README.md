@@ -10,7 +10,9 @@ Open __index.html__ in your favorite modern browser!
 
 View the code in your favorite text editor. I suggest VS Code.
 ## Usage
-![Mock up of Horiseon webpage](01-html-css-git-homework-demo.png)
+Here is a mock-up of the original webpage.
+
+![Horiseon webpage](assets/images/01-html-css-git-homework-demo.png)
 ## Credits
 Starter code and images provided by [Trilogy Education Services](https://www.trilogyed.com/)
 ## License
